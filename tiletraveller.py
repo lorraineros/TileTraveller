@@ -29,3 +29,36 @@ def right(x):
 def left(x):
     x -= 1
     return x
+
+
+
+while x != 3 or y != 1:
+    
+    if x == 1 and y == 1:
+        print("You can travel: (N)orth.")
+
+    elif x == 1 and y == 2:
+        print("You can travel: (N)orth or (E)ast or (S)outh.")
+
+    elif x == 1 and y == 3:
+        print("You can travel: (E)ast or (S)outh.")
+
+    elif x == 2 and y == 1:
+        print("You can travel: (N)orth.")
+
+    elif x == 2 and y == 2:
+        print("You can travel: (S)outh or (W)est.")
+
+    elif x == 2 and y == 3:
+        print("You can travel: (E)ast or (W)est.")
+
+    elif x == 3 and y == 2:
+        print("You can travel: (N)orth or (S)outh.")
+
+    elif x == 3 and y == 3:
+        print("You can travel: (S)outh or (W)est.")
+
+    direction = input("Direction: ")
+
+
+print("Victory!")
