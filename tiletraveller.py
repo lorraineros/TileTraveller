@@ -1,4 +1,6 @@
 '''
+Lorraine Rós, Einar Páll og Arnar Bragi
+
 Þurfum að búa til 3x3 grid
 Halda utan um hvar hann er staddur atm
 Nota X og Y
